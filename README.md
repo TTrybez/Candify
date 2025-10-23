@@ -1,8 +1,11 @@
-# 🎉 Birthday Automation System
+Live link- https://candify.onrender.com/
+
+
+#  Birthday Automation System
 
 A professional, modular birthday automation system that collects user birthdays and automatically sends personalized birthday wishes via email.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Features](#features)
 - [Architecture](#architecture)
@@ -17,37 +20,37 @@ A professional, modular birthday automation system that collects user birthdays 
 - [Contributing](#contributing)
 - [License](#license)
 
-## ✨ Features
+#Features
 
-- 🎨 **Clean Web Interface** - Responsive UI for birthday registration
-- 🔒 **Unique Email Constraint** - Prevents duplicate registrations
-- 📊 **SQLite Database** - Lightweight, file-based data storage
-- ⏰ **Automated Cron Jobs** - Daily birthday checks at 7 AM
-- 📧 **Beautiful Email Templates** - Professional HTML birthday emails
-- 🔧 **Modular Architecture** - Clean, maintainable code structure
-- 🌐 **Gmail Integration** - Reliable email delivery via Nodemailer
-- 🚀 **Production Ready** - Error handling, logging, and graceful shutdown
-- 📱 **Mobile Responsive** - Works perfectly on all devices
+- Clean Web Interface - Responsive UI for birthday registration
+- Unique Email Constraint - Prevents duplicate registrations
+- SQLite Database - Lightweight, file-based data storage
+- Automated Cron Jobs - Daily birthday checks at 7 AM
+- Beautiful Email Templates - Professional HTML birthday emails
+- Modular Architecture - Clean, maintainable code structure
+- Gmail Integration - Reliable email delivery via Nodemailer
+- Production Ready - Error handling, logging, and graceful shutdown
+- Mobile Responsive - Works perfectly on all devices
 
 ## Architecture
 
-This application follows a **modular MVC architecture** with clear separation of concerns:
+This application follows a modular MVC architecture with clear separation of concerns:
 
-- **Models** - Data layer (User model)
-- **Controllers** - Request handling logic
-- **Services** - Business logic (Email, Birthday services)
-- **Routes** - API endpoint definitions
-- **Middleware** - Cross-cutting concerns (CORS, Error handling)
-- **Jobs** - Scheduled tasks (Birthday scheduler)
-- **Config** - Application configuration
+- Models - Data layer (User model)
+- Controllers - Request handling logic
+- Services - Business logic (Email, Birthday services)
+- Routes - API endpoint definitions
+- Middleware - Cross-cutting concerns (CORS, Error handling)
+- Jobs - Scheduled tasks (Birthday scheduler)
+- Config - Application configuration
 
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
-- **Node.js** (v14.0.0 or higher)
-- **npm** (v6.0.0 or higher)
-- **Gmail Account** with App Password enabled
+- Node.js (v14.0.0 or higher)
+- npm (v6.0.0 or higher)
+- Gmail Account** with App Password enabled
 
 ## Installation
 
@@ -105,7 +108,7 @@ The application uses SQLite by default. The database file will be created automa
 
 For production, consider using PostgreSQL or MySQL by modifying the database configuration.
 
-## 🎯 Usage
+## Usage
 
 ### Development Mode
 
@@ -272,12 +275,12 @@ birthday-automation/
 
 ### Manual Testing
 
-1. **Register a User**:
+1. Register a User:
    - Visit the web interface
    - Fill out the registration form
    - Check if user appears in the list
 
-2. **Test Birthday Emails**:
+2. Test Birthday Emails:
    - Register a user with today's date as birthday
    - Use the test endpoint: `POST /api/test-birthdays`
    - Check email inbox for birthday message
@@ -399,10 +402,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Quick Start Summary
 
-1. **Clone** → `git clone <repo-url>`
-2. **Install** → `npm install`
-3. **Configure** → Set up `.env` file
-4. **Run** → `npm start`
-5. **Visit** → `http://localhost:3000`
+1. Clone → `git clone <repo-url>`
+2. Install → `npm install`
+3. Configure → Set up `.env` file
+4. Run → `npm start`
+5. Visit → `http://localhost:3000`
 
 Birthday Wishes Automating!
